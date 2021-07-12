@@ -33,3 +33,8 @@ change execution policy from admin in virtual environment- set-executionpolicy r
 create note which pakage is installed in python- pip freeze > requirements.txt
 
 install all file from requirements.txt- pip install -r .\requirements.txt
+
+
+
+//////////////////////////////////mongo
+show location of database = db.adminCommand("getCmdLineOpts")
