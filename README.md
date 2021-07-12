@@ -36,5 +36,5 @@ install all file from requirements.txt- pip install -r .\requirements.txt
 
 
 
-//////////////////////////////////mongo
+//////////////////////////////////mongo/////////////////
 show location of database = db.adminCommand("getCmdLineOpts")
