@@ -42,3 +42,12 @@ show location of database = db.adminCommand("getCmdLineOpts")
 
 //////////////////////////git help/////////////////
 https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+//commands///
+echo "# react_firebase_quiz_app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/maruf3684/react_firebase_quiz_app.git
+git push -u origin main
